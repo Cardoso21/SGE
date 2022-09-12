@@ -31,7 +31,6 @@ public class EventoServico implements Serializable {
     private final EmailServico emailServico;
     private final ListaEventoMapper listaEventoMapper;
 
-
     public ListaEventoDTO encontrarPorId(Long id) {
         Evento evento = eventoRepositorio.findById(id).orElseThrow(() -> new ObjectnotFoundException("Evento nãp encontrado!" + id));
         return listaEventoMapper.toDTO(evento);
@@ -74,7 +73,7 @@ public class EventoServico implements Serializable {
             EmailDTO emailDTO = new EmailDTO();
             Evento eventoDoDia = eventoOptional.get();
             emailDTO.setDestinatario("projeto.formacaobsb@gmail.com");
-            emailDTO.setAssunto("Hoje tem um Patrocinador ira pargar o lache!!!");
+            emailDTO.setAssunto("Hoje nossa familia estará organizando um evento!!!");
             emailDTO.setCorpo("Esta chegando a hora do evento!!!!" + eventoDoDia.getMotivo().getTitulo() + "Esse evento sera patrocinado por" +
                     eventoDoDia.getUsuario().toArray()[0]+ "e por mais outras" + (eventoDoDia.getUsuario().toArray().length -1)+ "pessoas" );
 
