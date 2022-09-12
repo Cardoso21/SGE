@@ -1,0 +1,29 @@
+<?xml version="1.1" encoding="UTF-8" standalone="no"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+
+    <changeSet id="202209081013" author="wagner.cardoso">
+        <insert tableName="PAGAMENTO">
+            <column name="DESCRICAO" value="PAGOU TUDO"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="202209081014" author="wagner.cardoso">
+        <insert tableName="PAGAMENTO">
+            <column name="DESCRICAO" value="PAGOU A PRIMEIRA"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="202209081015" author="wagner.cardoso">
+        <insert tableName="PAGAMENTO">
+            <column name="DESCRICAO" value="PAGOU A SEGUNDA"/>
+        </insert>
+    </changeSet>
+
+    <changeSet id="202209081016" author="wagner.cardoso">
+        <insert tableName="PAGAMENTO">
+            <column name="DESCRICAO" value="PAGOU A TERCEIRA"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>
