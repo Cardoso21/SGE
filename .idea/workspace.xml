@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2c1341fb-0838-4c92-b79d-9178bb047987" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/container/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Docker/container/postgres/postgres.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/SgeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/dominio/Evento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/dominio/Motivo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/dominio/Pagamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/dominio/Situacao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/dominio/Usuario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/repositorio/EventoRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/repositorio/MotivoRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/repositorio/PagamentoRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/repositorio/SituacaoRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/repositorio/UsuarioRepositorio.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/Config/ApplicationProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/DTO/EmailDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/DTO/EventoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/DTO/ListaEventoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/DTO/ListaUsuarioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/DTO/MotivoDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/DTO/SelectDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/DTO/UsuarioDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/EmailServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/EventoServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/MotivoServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/ObjectnotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/PagamentoServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/SituacaoServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/UsuarioServico.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/excecao/NaoPodeExcluirException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/excecao/ObjectnotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/filtro/EntityFiltro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/filtro/EventoFiltro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/filtro/MotivoFiltro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/filtro/PagamentoFiltro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/filtro/SituacaoFiltro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/filtro/UsuarioFiltro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/EntityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/EventoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/ListaEventoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/ListaUsuarioMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/MotivoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/MotivoSelectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/PagamentoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/SituacaoMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/UsuarioMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/servico/mapper/UsuarioSelectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/EventoRecurso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/MotivoRecurso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/PagamentoRecurso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/SituacaoRecurso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/UsuarioRecurso.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202109151600_cria_tabela_situacao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202109151607_cria_tabela_motivo.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202109151722_cria_tabela_usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202109161052_cria_tabela_evento.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202109161130_cria_tabela_evento_usuario.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202109161201_insere_situacao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202209081011_cria_tabela_pagamento.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/changelog/202209081012_insere_Pagamento.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/liquibase/master.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/com/sge/SgeApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sge0002" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+        <option name="useMavenConfig" value="true" />
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2EU6s92QuKYQUPYQrLPTs6RBnlX" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Project.color&quot;: &quot;004838&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/WagnerCardoso/Documents/Projetos_particular/S.G.E/sge&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WagnerCardoso\Documents\Projetos_particular\S.G.E\sge" />
+      <recent name="C:\Users\WagnerCardoso\Documents\Projetos_particular\S.G.E\sge\src\main\resources" />
+      <recent name="C:\Users\WagnerCardoso\Documents\Projetos_particular\S.G.E\sge\src\main\java\br\com\sge" />
+      <recent name="C:\Users\WagnerCardoso\Documents\Projetos_particular\S.G.E\sge\src\main\java\br\com\sge\servico" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.sge.servico.Config" />
+      <recent name="br.com.sge.servico" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SgeApplication">
+    <configuration name="SgeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.sge.SgeApplication" />
+      <module name="sge" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.sge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="postgres/postgres.yml.SGE: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="services">
+            <list>
+              <option value="SGE" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="../Docker/containers/postgres/postgres.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SgeApplication" />
+        <item itemvalue="Docker.postgres/postgres.yml.SGE: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2c1341fb-0838-4c92-b79d-9178bb047987" name="Changes" comment="" />
+      <created>1662638023135</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1662638023135</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
