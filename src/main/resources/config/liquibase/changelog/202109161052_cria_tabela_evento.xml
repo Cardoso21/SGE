@@ -1,6 +1,6 @@
 <databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
 
-    <changeSet id="202109161052" author="wagner.cardoso">
+    <changeSet id="202109161052" author="hellysamar">
         <createTable tableName="EVENTO" remarks="Tabela destinada a criação dos eventos">
             <column name="ID" type="int" autoIncrement="true" remarks="coluna que identifica a tabela eventos">
                 <constraints primaryKey="true"/>
