@@ -1,11 +1,11 @@
 spring:
   application:
-      name: EMS
+      name: Sge
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/formacao
-    username: user_formacao
-    password: user_formacao
+    url: jdbc:postgresql://localhost:5432/sge
+    username: user_sge
+    password: user_sge
   liquibase:
     change-log: classpath:/config/liquibase/master.xml
 #    drop-first: true
@@ -27,6 +27,6 @@ spring:
 application:
   email:
     endereco-remetente: projeto.formacaobsb@gmail.com
-    nome-remetente: EM
+    nome-remetente: Natal_da_Familia_Cardoso
 
 

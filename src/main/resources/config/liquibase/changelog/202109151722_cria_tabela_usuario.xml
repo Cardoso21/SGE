@@ -9,13 +9,17 @@
            <column name="NOME" type="VARCHAR(50)" remarks="criacao da coluna nome">
                <constraints nullable="false"/>
            </column>
+
            <column name="DT_NASCIMENTO" type="DATE" remarks="Ddata do anivessario">
                <constraints nullable="false"/>
            </column>
            <column name="EMAIL" type="VARCHAR(50)" remarks="forma de comunicar com o usuarios">
                <constraints nullable="false" unique="true"/>
            </column>
-           <column name="ID_CARGO" type="INT" remarks="indentificador do cardgo do usuario">
+           <column name="ID_PAGAMENTO" type="INT" remarks="indentificador do cardgo do usuario">
+               <constraints nullable="false"/>
+           </column>
+           <column name="STATUS" type="BOOLEAN" remarks="situaçao do colaborador ">
                <constraints nullable="false"/>
            </column>
 
@@ -25,12 +29,10 @@
 
        </createTable>
 
-
-
        <addForeignKeyConstraint baseTableName="USUARIO"
-                                baseColumnNames="ID_CARGO"
-                                constraintName="FK_CARGO_USUARIO"
-                                referencedTableName="CARGO"
+                                baseColumnNames="ID_PAGAMENTO"
+                                constraintName="FK_PAGAMENTO_USUARIO"
+                                referencedTableName="PAGAMENTO"
                                 referencedColumnNames="ID"/>
    </changeSet>
 
