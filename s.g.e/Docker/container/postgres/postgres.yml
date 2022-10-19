@@ -5,6 +5,6 @@ services:
     environment:
       - POSTGRES_USER=user_sge
       - POSTGRES_PASSWORD=user_sge
-      - POSTGRES_DB=sge
+
     ports:
       - 5432:5432
