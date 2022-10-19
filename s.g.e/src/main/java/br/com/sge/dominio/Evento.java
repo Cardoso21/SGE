@@ -1,47 +1,65 @@
 package br.com.sge.dominio;
 
+import liquibase.pro.packaged.J;
 import lombok.Getter;
 import lombok.Setter;
+import org.hibernate.annotations.Fetch;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
+import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@Table(name = "evento")
 @Getter
 @Setter
-@Table(name="EVENTO")
-
-public class Evento {
+public class Evento implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
+    @Column(name = "id")
     private Long id;
 
-    @Column(name = "DATA_EVENTO")
+
+    @Column(name = "nome")
+    private String nome;
+
+    @Column(name = "data")
     private LocalDate dataEvento;
 
-    @Column(name = "JUSTIFICATIVA_ADIAMENTO")
-    private String justificativaAdiamento;
+    @Column(name = "justificativa_adiantamento")
+    private String justificativa;
 
-    @Column(name = "VALOR")
-    private Long valor;
+    @Column(name = "valor")
+    private Double valor;
 
-    @JoinColumn(name = "ID_MOTIVO")
     @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name="id_motivo")
     private Motivo motivo;
 
-    @JoinColumn(name = "ID_SITUACAO")
     @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name="id_situacao")
     private Situacao situacao;
 
-    @ManyToMany(fetch=FetchType.EAGER)
-    @JoinTable(name = "EVENTO_USUARIO",
-            joinColumns = {@JoinColumn(name = "ID_EVENTO")},
-            inverseJoinColumns = {@JoinColumn(name = "ID_USUARIO")})
-    private List<Usuario> usuario = new ArrayList<>();
+    @ManyToMany(fetch = FetchType.EAGER)
+    @JoinTable(name = "usuario_evento", joinColumns = {
+            @JoinColumn(name="evento")
+    }, inverseJoinColumns = {
+            @JoinColumn(name = "usuario")
+    })
+    private List<Usuario> usuario;
+
+
 
 }
-

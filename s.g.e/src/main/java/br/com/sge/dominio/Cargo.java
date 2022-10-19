@@ -1,6 +1,9 @@
 package br.com.sge.dominio;
 
+
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Column;
@@ -11,19 +14,19 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
-@Entity
-@Table (name = "situacao")
 @Getter
 @Setter
-public class Situacao implements Serializable {
+@AllArgsConstructor
+@NoArgsConstructor
+
+@Entity
+@Table(name = "cargo")
+public class Cargo implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name = "id")
-    private  Long id;
-
-    @Column(name = "situacao")
-    private String situacao;
-
-
+    @Column(name = "id")
+    private Long id;
+    @Column(name = "cargo")
+    private String cargo;
 }

@@ -2,18 +2,21 @@
 <databaseChangeLog
         xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
-    http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+
+    <include file="config/liquibase/changelogs/202109151616_create_table_situacao.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109151635_insert_table_situacao.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109151621_create_table_motivos.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109151731_create_table_evento.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109151627_create_table_cargo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109151635_insert_table_cargo.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109151950_create_table_usuario.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109152014_create_table_relac_usuario-evento.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109152025_FKs_relac_usuario-evento.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelogs/202109161245_FK_cargo_usuario.xml" relativeToChangelogFile="false"/>
 
 
-    <include file="config/liquibase/changelog/202209081011_cria_tabela_pagamento.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/202109151600_cria_tabela_situacao.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/202109151607_cria_tabela_motivo.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/202109151722_cria_tabela_usuario.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/202109161052_cria_tabela_evento.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/202109161130_cria_tabela_evento_usuario.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/202209081012_insere_Pagamento.xml" relativeToChangelogFile="false"/>
-    <include file="config/liquibase/changelog/202109161201_insere_situacao.xml" relativeToChangelogFile="false"/>
+
 
 
 

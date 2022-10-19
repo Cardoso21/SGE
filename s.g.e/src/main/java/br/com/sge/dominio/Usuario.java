@@ -1,44 +1,53 @@
 package br.com.sge.dominio;
 
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
+import javax.persistence.ManyToOne;
+import javax.persistence.Table;
 import java.io.Serializable;
 import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.List;
-
-@Entity
 @Getter
 @Setter
-@Table(name="USUARIO")
+@AllArgsConstructor
+@NoArgsConstructor
+
+@Entity
+@Table(name = "usuario")
 public class Usuario implements Serializable {
-    private static final long serialVersionUID = 1905122041950251207L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "ID")
+    @Column(name = "id")
     private Long id;
 
-    @Column(name = "NOME")
+    @Column(name = "nome")
     private String nome;
 
-    @Column(name = "DT_NASCIMENTO")
-    private LocalDate dataNascimento;
+    @Column(name = "dt_nascimento")
+    LocalDate dataNascimento;
 
-    @Column(name = "EMAIL")
+    @Column(name = "email")
     private String email;
 
-    @Column(name = "STATUS")
-    private boolean status;
-
-    @Column(name = "TELEFONE")
+    @Column(name = "telefone")
     private String telefone;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "ID_PAGAMENTO")
-    private Pagamento pagamento;
+    @Column(name = "st_ativo")
+    private Boolean status;
 
-    @ManyToMany(mappedBy = "usuario")
-    private List<Evento> eventos = new ArrayList<>();
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "id_cargo")
+    private Cargo cargo;
+
+
 }
