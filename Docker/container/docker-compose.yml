@@ -1,0 +1,7 @@
+version: '2'
+services:
+  Sge:
+    extends:
+      file: postgres/postgres.yml
+      service: Sge
+    container_name: Sge
