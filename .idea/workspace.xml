@@ -9,14 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1fe0b9a-b3ac-4554-89af-d7625879cd77" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/CargoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/CargoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/EventoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/EventoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/MotivoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/MotivoResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/UsuarioResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/UsuarioResource.java" afterDir="false" />
-    </list>
+    <list default="true" id="b1fe0b9a-b3ac-4554-89af-d7625879cd77" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
