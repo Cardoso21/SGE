@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="sge:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1fe0b9a-b3ac-4554-89af-d7625879cd77" name="Changes" comment="" />
+    <list default="true" id="b1fe0b9a-b3ac-4554-89af-d7625879cd77" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/CargoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/CargoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/EventoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/EventoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/MotivoResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/MotivoResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/UsuarioResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/sge/web/rest/UsuarioResource.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +83,10 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/WagnerCardoso/Documents/Projetos_particular/SGE/s.g.e/src/main/java/br/com/sge&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -86,7 +102,7 @@
       <recent name="C:\Users\WagnerCardoso\Documents\Projetos_particular\SGE\s.g.e\src\main\resources\config\liquibase\changelog" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SgeApplication">
     <configuration name="SgeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.sge.SgeApplication" />
       <module name="sge" />
@@ -100,11 +116,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="sge-0.0.1-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <extension name="software.aws.toolkits.jetbrains.core.execution.JavaAwsConnectionExtension">
+        <option name="credential" />
+        <option name="region" />
+        <option name="useCurrentConnection" value="false" />
+      </extension>
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/sge-0.0.1-SNAPSHOT.jar" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <module name="sge" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="sge:jar" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="sge.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/sge_jar/sge.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.SgeApplication" />
-        <item itemvalue="Application.SgeApplication" />
-        <item itemvalue="Application.SgeApplication" />
+        <item itemvalue="JAR Application.sge-0.0.1-SNAPSHOT.jar" />
+        <item itemvalue="JAR Application.sge.jar" />
         <item itemvalue="Application.SgeApplication" />
         <item itemvalue="Application.SgeApplication" />
       </list>
@@ -143,5 +179,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SGE$.ic" NAME=" Coverage Results" MODIFIED="1666202144054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
